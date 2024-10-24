@@ -1,10 +1,7 @@
 {
   "functions": {
     "api/*.php": {
-      "runtime": "php-8.0"
+      "runtime": "now-php@1.0.0"  // Adjust the version as necessary
     }
-  },
-  "routes": [
-    { "src": "/(.*)", "dest": "/public/index.php" }
-  ]
+  }
 }
